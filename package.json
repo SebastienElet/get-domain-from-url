@@ -4,7 +4,12 @@
   "description": "Get domain from url",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "metapak": "metapak || echo 'Please `npm install --save-dev metapak`' && exit 0",
+    "postinstall": "npm run metapak --silent",
+    "preversion": "npm t && npm run lint",
+    "test": "jest",
+    "version": "npm run changelog && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,17 @@
   "bugs": {
     "url": "https://github.com/SebastienElet/getDomainFromUrl/issues"
   },
-  "homepage": "https://github.com/SebastienElet/getDomainFromUrl#readme"
+  "homepage": "https://github.com/SebastienElet/getDomainFromUrl#readme",
+  "devDependencies": {
+    "conventional-changelog-cli": "1.2.0",
+    "cz-conventional-changelog": "2.0.0",
+    "eslint": "3.17.0",
+    "eslint-config-simplifield": "4.4.0",
+    "metapak": "^0.0.18",
+    "metapak-sebastienelet": "^0.0.2"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {}
 }
