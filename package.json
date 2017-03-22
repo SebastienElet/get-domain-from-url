@@ -1,0 +1,23 @@
+{
+  "name": "get-domain-from-url",
+  "version": "0.0.0",
+  "description": "Get domain from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastienElet/getDomainFromUrl.git"
+  },
+  "keywords": [
+    "url",
+    "domain"
+  ],
+  "author": "Sébastien Elet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastienElet/getDomainFromUrl/issues"
+  },
+  "homepage": "https://github.com/SebastienElet/getDomainFromUrl#readme"
+}
