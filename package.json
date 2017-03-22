@@ -30,6 +30,7 @@
     "cz-conventional-changelog": "2.0.0",
     "eslint": "3.17.0",
     "eslint-config-simplifield": "4.4.0",
+    "jest": "19.0.2",
     "metapak": "^0.0.18",
     "metapak-sebastienelet": "^0.0.2"
   },
