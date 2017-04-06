@@ -518,7 +518,7 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-concat-stream@^1.4.6:
+concat-stream@^1.5.2:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.0.tgz#0aac662fd52be78964d5532f694784e70110acf7"
   dependencies:
@@ -530,9 +530,9 @@ content-type-parser@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/content-type-parser/-/content-type-parser-1.0.1.tgz#c3e56988c53c65127fb46d4032a3a900246fdc94"
 
-conventional-changelog-angular@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-1.3.3.tgz#e7ce807a85dd4750e1b417f766045497511e0726"
+conventional-changelog-angular@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-1.3.4.tgz#7d7cdfbd358948312904d02229a61fd6075cf455"
   dependencies:
     compare-func "^1.3.1"
     github-url-from-git "^1.4.0"
@@ -544,12 +544,12 @@ conventional-changelog-atom@^0.1.0:
   dependencies:
     q "^1.4.1"
 
-conventional-changelog-cli@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-cli/-/conventional-changelog-cli-1.2.0.tgz#c4929dcdb5d5ba9aa1840418e6b4674691193f5d"
+conventional-changelog-cli@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-cli/-/conventional-changelog-cli-1.3.1.tgz#1cd5a9dbae25ffb5ffe67afef1e136eaceefd2d5"
   dependencies:
     add-stream "^1.0.0"
-    conventional-changelog "^1.1.0"
+    conventional-changelog "^1.1.3"
     lodash "^4.1.0"
     meow "^3.7.0"
     tempfile "^1.1.1"
@@ -560,9 +560,9 @@ conventional-changelog-codemirror@^0.1.0:
   dependencies:
     q "^1.4.1"
 
-conventional-changelog-core@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-core/-/conventional-changelog-core-1.8.0.tgz#977848b416caf15fb09f20b12a62d40ef145b957"
+conventional-changelog-core@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-core/-/conventional-changelog-core-1.9.0.tgz#de5dfbc091847656508d4a389e35c9a1bc49e7f4"
   dependencies:
     conventional-changelog-writer "^1.1.0"
     conventional-commits-parser "^1.0.0"
@@ -578,9 +578,9 @@ conventional-changelog-core@^1.8.0:
     read-pkg-up "^1.0.1"
     through2 "^2.0.0"
 
-conventional-changelog-ember@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-ember/-/conventional-changelog-ember-0.2.5.tgz#ce21d5cf83cd5ebe05d23fdf232d8844f4b56a4f"
+conventional-changelog-ember@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-ember/-/conventional-changelog-ember-0.2.6.tgz#8b7355419f5127493c4c562473ab2fc792f1c2b6"
   dependencies:
     q "^1.4.1"
 
@@ -630,15 +630,15 @@ conventional-changelog-writer@^1.1.0:
     split "^1.0.0"
     through2 "^2.0.0"
 
-conventional-changelog@^1.1.0:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/conventional-changelog/-/conventional-changelog-1.1.3.tgz#26283078ac38c094df2af1604b0a46bbc0165c4d"
+conventional-changelog@^1.1.3:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/conventional-changelog/-/conventional-changelog-1.1.4.tgz#108bc750c2a317e200e2f9b413caaa1f8c7efa3b"
   dependencies:
-    conventional-changelog-angular "^1.3.3"
+    conventional-changelog-angular "^1.3.4"
     conventional-changelog-atom "^0.1.0"
     conventional-changelog-codemirror "^0.1.0"
-    conventional-changelog-core "^1.8.0"
-    conventional-changelog-ember "^0.2.5"
+    conventional-changelog-core "^1.9.0"
+    conventional-changelog-ember "^0.2.6"
     conventional-changelog-eslint "^0.1.0"
     conventional-changelog-express "^0.1.0"
     conventional-changelog-jquery "^0.1.0"
@@ -790,9 +790,9 @@ diff@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
 
-doctrine@^1.2.2:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
+doctrine@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.0.0.tgz#c73d8d2909d22291e1a007a395804da8b665fe63"
   dependencies:
     esutils "^2.0.2"
     isarray "^1.0.0"
@@ -897,33 +897,33 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-angular@^0.5.0:
+eslint-config-angular@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-angular/-/eslint-config-angular-0.5.0.tgz#e0aae0132e39e7467df3f7547fec81a44d3685c4"
 
-eslint-config-simplifield@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-simplifield/-/eslint-config-simplifield-4.4.0.tgz#5fb5336ded21b2796c29cab037469d4a7de35e0e"
+eslint-config-simplifield@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-simplifield/-/eslint-config-simplifield-5.0.1.tgz#0af4c0791cde5e864100adf80266de9b7e23d84a"
   dependencies:
-    eslint-config-angular "^0.5.0"
-    eslint-plugin-angular "^1.3.0"
-    eslint-plugin-mongodb "^0.2.4"
-    eslint-plugin-node "^3.0.4"
-    eslint-plugin-promise "^3.0.0"
+    eslint-config-angular "0.5.0"
+    eslint-plugin-angular "2.2.0"
+    eslint-plugin-mongodb "0.2.4"
+    eslint-plugin-node "4.2.1"
+    eslint-plugin-promise "3.5.0"
 
-eslint-plugin-angular@^1.3.0:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-1.6.4.tgz#f495b351e2a49907a020f1c4fbdfbf81011a32a2"
+eslint-plugin-angular@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-2.2.0.tgz#d074fcd1438ce5df920a39ba4b52247ef46ed45b"
 
-eslint-plugin-mongodb@^0.2.4:
+eslint-plugin-mongodb@0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-mongodb/-/eslint-plugin-mongodb-0.2.4.tgz#0bd410770e0e4804cdb52f49ce7e19ed5b3492d8"
   dependencies:
     yerror "^1.0.1"
 
-eslint-plugin-node@^3.0.4:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-3.0.5.tgz#03c8e23c6011eabd240e7ebf3556ec6e50fc734e"
+eslint-plugin-node@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-4.2.1.tgz#52e8e06595d0be63a25fdc237be5e42b69a46eaa"
   dependencies:
     ignore "^3.0.11"
     minimatch "^3.0.2"
@@ -931,21 +931,22 @@ eslint-plugin-node@^3.0.4:
     resolve "^1.1.7"
     semver "5.3.0"
 
-eslint-plugin-promise@^3.0.0:
+eslint-plugin-promise@3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
-eslint@3.17.0:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.17.0.tgz#e2704b09c5bae9fb49ee8bafeea3832c7257d498"
+eslint@3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
-    concat-stream "^1.4.6"
+    concat-stream "^1.5.2"
     debug "^2.1.1"
-    doctrine "^1.2.2"
+    doctrine "^2.0.0"
     escope "^3.6.0"
     espree "^3.4.0"
+    esquery "^1.0.0"
     estraverse "^4.2.0"
     esutils "^2.0.2"
     file-entry-cache "^2.0.0"
@@ -989,6 +990,12 @@ esprima@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
 
+esquery@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.0.0.tgz#cfba8b57d7fba93f17298a8a006a04cda13d80fa"
+  dependencies:
+    estraverse "^4.0.0"
+
 esrecurse@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/esrecurse/-/esrecurse-4.1.0.tgz#4713b6536adf7f2ac4f327d559e7756bff648220"
@@ -1000,7 +1007,7 @@ estraverse@^1.9.1:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-1.9.3.tgz#af67f2dc922582415950926091a4005d29c9bb44"
 
-estraverse@^4.1.1, estraverse@^4.2.0:
+estraverse@^4.0.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
 

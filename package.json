@@ -1,8 +1,11 @@
 {
   "name": "get-domain-from-url",
   "version": "0.0.0",
-  "description": "Get domain from url",
+  "description": "Get domain from an url",
   "main": "index.js",
+  "metapak": {
+    "configs": [ "readme" ]
+  },
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "metapak": "metapak || echo 'Please `npm install --save-dev metapak`' && exit 0",
