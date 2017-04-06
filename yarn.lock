@@ -2052,9 +2052,9 @@ merge@^1.1.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
 
-metapak-sebastienelet@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/metapak-sebastienelet/-/metapak-sebastienelet-0.0.2.tgz#b6bca8a7afe2f5cc785a9c27434a7c2eb10b81a4"
+metapak-sebastienelet@*:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/metapak-sebastienelet/-/metapak-sebastienelet-0.0.3.tgz#bfeeb63c6ca14be392163c002d50e9c5f7bcc7ef"
 
 metapak@^0.0.18:
   version "0.0.18"
