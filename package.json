@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SebastienElet/getDomainFromUrl.git"
+    "url": "git+https://github.com/SebastienElet/get-domain-from-url.git"
   },
   "keywords": [
     "url",
@@ -25,9 +25,9 @@
   "author": "Sébastien Elet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SebastienElet/getDomainFromUrl/issues"
+    "url": "https://github.com/SebastienElet/get-domain-from-url/issues"
   },
-  "homepage": "https://github.com/SebastienElet/getDomainFromUrl#readme",
+  "homepage": "https://github.com/SebastienElet/get-domain-from-url#readme",
   "devDependencies": {
     "conventional-changelog-cli": "1.3.1",
     "cz-conventional-changelog": "2.0.0",
