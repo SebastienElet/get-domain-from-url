@@ -1,3 +1,4 @@
+/* eslint max-nested-callbacks:0 */
 'use strict';
 
 const assert = require('assert');

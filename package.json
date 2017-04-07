@@ -4,14 +4,22 @@
   "description": "Get domain from an url",
   "main": "index.js",
   "metapak": {
-    "configs": [ "readme" ]
+    "configs": [
+      "readme"
+    ],
+    "data": {
+      "testsFiles": "{,!(node_modules)/**/}*.spec.js",
+      "files": "{,!(node_modules)/**/}*.js"
+    }
   },
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "cover": "istanbul cover _mocha --report html -- '{,!(node_modules)/**/}*.spec.js' -R spec -t 5000",
+    "lint": "eslint '{,!(node_modules)/**/}*.js'",
     "metapak": "metapak || echo 'Please `npm install --save-dev metapak`' && exit 0",
     "postinstall": "npm run metapak --silent",
     "preversion": "npm t && npm run lint",
-    "test": "jest",
+    "test": "mocha '{,!(node_modules)/**/}*.spec.js'",
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "repository": {
